@@ -1,0 +1,11 @@
+Package: SENSE
+Title: Spatial neighborhood ENrichment analySis and Evaluation
+Version: 1.0.0
+Authors@R: 
+    c(person("Jiawei", ,"Zhong", "jiawei.zhong@ki.se", role = c("aut", "cre")),
+    person("Jiaxin", ,"Luo", "jiaxin.luo@ki.se", role = c("aut")))
+Description: Calculate the homotypic and heterotypic score
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
