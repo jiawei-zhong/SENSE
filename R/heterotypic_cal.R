@@ -109,7 +109,7 @@ heter_aggr_cal <- function(A_df, n_cores = 1){
 #' @import tidyverse
 #' @import parallel
 #'
-heter_cal <- function(spatial_data, decon_data, n_neigh = 1, n_permutation = 50, n_cores = 1, seed = 123){
+CalHeteroScore <- function(spatial_data, decon_data, n_neigh = 1, n_permutation = 50, n_cores = 1, seed = 123){
   set.seed(seed)
 
   if (!identical(rownames(spatial_data), rownames(decon_data))) {
