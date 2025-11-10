@@ -83,7 +83,7 @@ homo_aggr_cal <- function(decon_data, k_df){
 #' @import tidyverse
 #' @import parallel
 #'
-homo_cal <- function(spatial_data, decon_data, n_neigh = 1, n_permutation = 50, n_cores = 1, seed =123){
+CalHomoScore <- function(spatial_data, decon_data, n_neigh = 1, n_permutation = 50, n_cores = 1, seed =123){
 
   set.seed(seed)
 
