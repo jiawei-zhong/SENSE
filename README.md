@@ -34,13 +34,7 @@ library(Seurat)
 library(dplyr)
 library(parallel)
 ```
-Load Spatial Seurat object, you can download ```depots_STx.RDS``` from [Mendeley Data](https://doi.org/10.17632/8p7k6htgfm.1
-        
-        
-        
-        
-        
-        ):
+Load Spatial Seurat object, you can download ```depots_STx.RDS``` from [Mendeley Data](https://doi.org/10.17632/8p7k6htgfm.1):
 ```
 depots_STx <- readRDS("depots_STx.RDS")
 
