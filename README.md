@@ -2,8 +2,9 @@
   <img width="400"  src="https://github.com/jiawei-zhong/SENSE/blob/main/SENSE_logo.jpg">
 </p>
 
-# SENSE v1.0.0
+# SENSE v1
 SENSE (Spatial neighborhood ENrichment analySis and Evaluation) is a R toolkit for quantifying whether cell types preferentially cluster with themselves (homotypic distribution) or with other cell types (heterotypic distribution) based on spatial deconvolution result.
+
 
 SENSE provides two modules:
 
@@ -34,7 +35,13 @@ library(Seurat)
 library(dplyr)
 library(parallel)
 ```
-Load Spatial Seurat object, you can download ```depots_STx.RDS``` from [Mendeley Data](https://doi.org/10.17632/8p7k6htgfm.1):
+Load Spatial Seurat object, you can download ```depots_STx.RDS``` from [Mendeley Data](https://doi.org/10.17632/8p7k6htgfm.1
+        
+        
+        
+        
+        
+        ):
 ```
 depots_STx <- readRDS("depots_STx.RDS")
 
@@ -76,3 +83,16 @@ heterotypic_df <- CalHeteroScore(
   seed          = 123
 )
 ```
+
+## Citation
+
+
+## History
+
+#### version 1.0.1 (2025-11-27)
+
+- Fix bug.
+
+#### version 1.0.0 (2025-11-10)
+
+- First release.
