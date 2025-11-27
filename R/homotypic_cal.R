@@ -53,7 +53,7 @@ homo_aggr_cal <- function(decon_data, k_df){
   homoscore_mat_1 <- as.matrix(k_obs_mat)-as.matrix(k_exp_mean_mat)
 
   # sum celltype proportion
-  celltype_prob <- colSums(decon_data)
+  celltype_prob <- colSums(decon_data)^2
   celltype_prob_mat <- matrix(rep(celltype_prob,dim(homoscore_mat_1)[1]), byrow = TRUE,
                               nrow = dim(homoscore_mat_1)[1],
                               ncol = length(celltype_prob))
