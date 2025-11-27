@@ -1,6 +1,6 @@
 Package: SENSE
 Title: Spatial neighborhood ENrichment analySis and Evaluation
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     c(person("Jiawei", ,"Zhong", "jiawei.zhong@ki.se", role = c("aut", "cre")),
     person("Jiaxin", ,"Luo", "jiaxin.luo@ki.se", role = c("aut")))
