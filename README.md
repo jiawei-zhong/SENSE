@@ -41,7 +41,9 @@ Load Spatial Seurat object, you can download ```depots_STx.RDS``` from [Mendeley
         
         
         
-        ):
+        
+        
+
 ```
 depots_STx <- readRDS("depots_STx.RDS")
 
