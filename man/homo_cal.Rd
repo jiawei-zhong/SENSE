@@ -4,7 +4,7 @@
 \alias{homo_cal}
 \title{Calculate the homotypic score of spatial transcriptomics}
 \usage{
-homo_cal(
+CalHomoScore(
   spatial_data,
   decon_data,
   n_neigh = 1,
